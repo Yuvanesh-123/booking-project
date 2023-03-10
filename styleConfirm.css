@@ -1,0 +1,85 @@
+body {
+    min-height: 20vh;
+    display: grid;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    place-content: center;
+
+}
+
+.Session-input {
+    text-decoration: none;
+
+    padding: 8px 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.Session-input1 {
+    text-decoration: none;
+
+    padding: 8px 70px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+
+}
+
+table {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.subbut {
+    height: 25px;
+    width: 164px;
+    color: azure;
+    border-radius: 10px;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+}
+
+.form {
+    padding: 10px;
+    place-content: center;
+}
+
+.date-f {
+    text-decoration: none;
+
+    padding: 8px 12px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.date-t {
+    text-decoration: none;
+
+    padding: 8px 12px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+table td,
+table th {
+    padding: 16px;
+    text-align: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+}

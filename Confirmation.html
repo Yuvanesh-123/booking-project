@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Booking</title>
+    <link rel="stylesheet" href="styleConfirm.css">
+</head>
+
+<body>
+    <h1>Choose your Slots and Timings</h1><br>
+    <p>Reserve a Parking bay before you arrive.</p>
+    <form>
+        <table>
+
+            <tr>
+                <div class="inputBox1">
+                    <th><span>Select the Slot :</span></th>
+
+                    <td> <select name="" id="" class="Session-input1">
+                            <option value="Session" selected disabled>Slot</option>
+                            <option value="01">Slot P1</option>
+                            <option value="02">Slot P2</option>
+                            <option value="03">Slot P3</option>
+                            <option value="04">Slot P4</option>
+                        </select></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="inputBox2">
+                    <th><label for="date&time">Time & Date :</label></th>
+                    <td><span style="color: darkgrey;"><b>From..</b></span><br>
+                        <input type="datetime-local" class="date-f" id="Date-from" name="datefrom">
+                    </td>
+                </div><br>
+            </tr>
+            <tr>
+                <div class="inputBox3">
+                    <th><label for="datetime"> </label></th>
+                    <td><span style="color: darkgrey;"><b>To..</b></span><br>
+                        <input type="datetime-local" class="date-t" id="Date-to" name="dateto">
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <th><label for="vehicle" class="veh">Vehicle :</label></th>
+                <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Car</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Bike</label> &nbsp;
+                    <select name="Other1" id="other-dropdown" class="dropdown-other">
+                        <option value="Session" selected disabled>Others</option>
+                        <option value="01">Bus</option>
+                        <option value="02">Van</option>
+                        <option value="03">Truck</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <br></br>
+    <button class="subbut" onclick="openForm()">Next>></button>
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1><b>Payment's Method</b></h1>
+            <div class="inputBox">
+                <span>Payment method</span>
+                <select name="" id="" class="Payments-input">
+                    <option value="methods" selected disabled>Methods</option>
+                    <option value="01">UPI id</option>
+                    <option value="02">Credit card</option>
+                    <option value="03">Debit card</option>
+                    <option value="04">Net banking</option>
+                </select><br>
+                <br>
+
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

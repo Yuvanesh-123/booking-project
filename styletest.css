@@ -1,0 +1,115 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(0deg, rgba(232, 236, 244, .5), rgba(232, 236, 244, .5)), radial-gradient(25.8% 16.08% at 100% 0, rgba(182, 205, 223, .5) 0, rgba(182, 205, 223, 0) 100%), radial-gradient(51.09% 39.87% at 47.33% 80.08%, rgba(186, 116, 164, .6) 0, rgba(186, 116, 164, 0) 100%), radial-gradient(31.21% 21.24% at 45.94% 18.97%, rgba(186, 116, 164, .6) 0, rgba(186, 116, 164, 0) 100%), radial-gradient(20.63% 12.86% at 0 41.62%, rgba(186, 116, 164, .4) 0, rgba(186, 116, 164, 0) 100%), radial-gradient(21.32% 12.68% at 0 0, rgba(186, 116, 164, .4) 0, rgba(186, 116, 164, 0) 100%);
+    place-content: center;
+
+}
+
+
+
+.submit-btn {
+    text-decoration: none;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+    padding: 8px 123px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    place-content: center;
+}
+
+.logo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #555
+}
+
+table {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.Social {
+    text-decoration: none;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+    padding: 8px 81px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    place-content: center;
+}
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.Header h1 {
+    text-align: center;
+}
+
+.parkingimg {
+    text-align: center;
+}
+
+.Header.flex-container.loIN {
+    text-decoration: none;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+    padding: 8px 123px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    place-content: center;
+}
+
+.welco {
+    text-align: center;
+}
+
+.booksteps {
+    text-align: calc(height);
+}
+
+.signupindex {
+    text-decoration: none;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+    padding: 8px 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.signinindx {
+    text-decoration: none;
+    padding: 8px 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.mapdes3 {
+    height: 10%;
+    width: 60%;
+
+}
+
+table td,
+table th {
+    padding: 10px;
+    text-align: center;
+}

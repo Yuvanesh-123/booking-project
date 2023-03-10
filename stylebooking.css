@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    place-content: center;
+
+}
+
+body h1 {
+    text-align: center;
+
+}
+
+table {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+table td,
+table th {
+    padding: 16px;
+    text-align: center;
+}
+
+table th {
+    font-size: 24px;
+    color: gray;
+}
+
+table tbody tr:hover {
+    background-color: rgb(177, 176, 176);
+}
+
+table button {
+    cursor: pointer;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(90deg, rgba(227, 174, 238, 1) 0%, rgba(148, 216, 233, 1) 100%);
+    padding: 0.25rem 1rem;
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+main {
+    text-align: right;
+}
