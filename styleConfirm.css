@@ -83,3 +83,27 @@ table th {
     border-radius: 10px;
     border: 2px solid black;
 }
+
+.submit-btn {
+    text-decoration: none;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+    padding: 5px 32px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    place-content: center;
+}
+
+.btn-cancel {
+    text-decoration: none;
+    background: rgb(227, 174, 238);
+    background: linear-gradient(100.09deg, #ff5f6d, #637fda .01%, #be90c0);
+    padding: 5px 32px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    place-content: center;
+}

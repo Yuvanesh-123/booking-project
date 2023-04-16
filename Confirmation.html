@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Slot Booking</title>
     <link rel="stylesheet" href="styleConfirm.css">
 </head>
@@ -64,8 +64,8 @@
     </form>
     <br></br>
     <button class="subbut" onclick="openForm()">Next>></button>
-    <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
+    <div class="form-popup" id="myForm" style="display: none;">
+        <form class="form-container">
             <h1><b>Payment's Method</b></h1>
             <div class="inputBox">
                 <span>Payment method</span>
@@ -78,9 +78,10 @@
                 </select><br>
                 <br>
 
+                <a href="OrderSucessfull.html" class="submit-btn">Proceed
+                </a>
 
-                <button type="submit" class="btn">Login</button>
-                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                <button type="button" class="btn-cancel" onclick="closeForm()">Close</button>
         </form>
     </div>
 
